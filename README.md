@@ -21,7 +21,7 @@ The configuration of the plugin is done by simply configuring a custom bucketNam
 
 ```yaml
 provider:
-  deployment:
+  deploymentBucket:
     name: MY_DEPLOYMENT_BUCKET_NAME
 ```
 
