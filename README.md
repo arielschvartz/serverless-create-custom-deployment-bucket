@@ -1,18 +1,18 @@
-# serverless-create-deployment-bucket
+# serverless-create-custom-deployment-bucket
 
 This is a simple plugin for [Serverless Framework](https://serverless.com/) to create the deployment bucket if the name was customized and bucket is not created yet.
 
 ## Install
 
 ```bash
-$ npm install serverless-create-deployment-bucket --save-dev
+$ npm install serverless-create-custom-deployment-bucket --save-dev
 ```
 
 Add the plugin to your `serverless.yml` file:
 
 ```yaml
 plugins:
-  - serverless-create-deployment-bucket
+  - serverless-create-custom-deployment-bucket
 ```
 
 ## Configure

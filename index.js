@@ -51,7 +51,7 @@ class CreateDeploymentBucket {
 
     const bucketName = this.serverless.service.provider.deploymentBucket;
     if (!bucketName) {
-      throw new Error('You should not use the serverless-create-deployment-bucket if you are not configuring a custom serverless deploymentBucket. For setting it, set the variable provider->deploymentBucket->name')
+      throw new Error('You should not use the serverless-create-custom-deployment-bucket if you are not configuring a custom serverless deploymentBucket. For setting it, set the variable provider->deploymentBucket->name')
     }
     try {
       await this.s3.headBucket({

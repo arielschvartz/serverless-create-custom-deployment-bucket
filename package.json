@@ -1,18 +1,18 @@
 {
-  "name": "serverless-create-deployment-bucket",
+  "name": "serverless-create-custom-deployment-bucket",
   "version": "1.0.0",
   "description": "Creates the deployment bucket on serverless packaging if the deployment bucket name was customized",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/arielschvartz/serverless-create-deployment-bucket.git"
+    "url": "git+ssh://git@github.com/arielschvartz/serverless-create-custom-deployment-bucket.git"
   },
   "author": "Ariel Schvartz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arielschvartz/serverless-create-deployment-bucket/issues"
+    "url": "https://github.com/arielschvartz/serverless-create-custom-deployment-bucket/issues"
   },
-  "homepage": "https://github.com/arielschvartz/serverless-create-deployment-bucket#readme",
+  "homepage": "https://github.com/arielschvartz/serverless-create-custom-deployment-bucket#readme",
   "dependencies": {
     "bluebird": "^3.7.2"
   }
